@@ -1,0 +1,103 @@
+@font-face {
+font-family: logo_font;
+src: url('AintNothingFancy.ttf'), url('AintNothingFancy.ttf'); /* IE9+ */
+}
+
+body {
+	background-color: #fff9e0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+ }
+
+#leftframe {
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom:0;
+	height: 100%;
+	width: 250px;
+}
+
+#nav_content {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-left: 3%;
+}
+
+#section_content {
+	position: absolute;
+	top:0;
+	right:0;
+	bottom: 0;
+	left: 250px;
+	height: 100%;
+	margin-left: 3%;
+}
+
+h1 {
+
+	font-family: logo_font;
+	font-size: 24px;
+}
+
+#logo_underline{
+	position: relative;
+}
+
+#logo_underline > div {
+	height: 5px;
+	width: 28px;
+	display: inline-block;
+	position: relative;
+	top: -33px;
+	left: -2px;
+}
+
+#underline1 {
+	background-color: #496F7A;
+}
+
+#underline2 {
+	background-color: #D1CEB8;
+}
+
+#underline3 {
+	background-color: #AE8851;
+}
+
+#underline4 {
+	background-color: #AB442D;
+}
+
+#underline5 {
+	background-color: #8F1012;
+}
+
+.socialmedia_buttons {
+	height: 30px;
+	float: left;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.clear{
+	clear:both;
+}
+
+a[href="mailto:irfan.pirbhai@gmail.com"] {
+display: block;
+}
+
+ /*
+
+Underneath font have contact info, and social media buttons
+
+Make <h2> on LF links to RF <h2>
+
+Some kind of cool hover-over effect on <h2>; maybe button pressing effect
+highlight links (yellow?) when hover over
+
+Maybe throw up a resized, circle cropped photo or else the illustration of me above <h1>
+
+ */
